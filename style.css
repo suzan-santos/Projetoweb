@@ -1,0 +1,80 @@
+body {
+    background-color:rgb(255, 232, 211);
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 250px;
+    background: url(img/igreja.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Adicionado para posicionar o conteúdo */
+}
+.banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 232, 211);
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+
+}
+
+main {
+    padding: 0px; /* Define o espaçamento interno de 20 pixels em todos os lados */
+    margin: 25px;
+    line-height: 1.5; /* Define o espaçamento entre linhas */
+    margin-bottom: 1px; /* Define a margem inferior */
+}
+main h3 {
+    text-align: center;
+    font-family: 'Times New Roman', serif; /* Define a fonte para o título h2 */
+    color: #3e1d01; /* Define a cor do título h2 */
+    font-size: 2em;
+
+}
+main h2 {
+    font-family: 'Times New Roman', serif; /* Define a fonte para o título h2 */
+    color: #3e1d01; /* Define a cor do título h2 */
+}
+main p {
+    font-family: 'Verdana', sans-serif; /* Define a fonte para os parágrafos */
+    color: #3e1d01; /* Define a cor dos parágrafos */
+}
+main hr{
+    border: none;
+    border-top: 1px solid #3e1d01; /* Estilo da linha */
+    margin: 10px auto; /* Margem superior e inferior */
+    width:100%; /* Largura da linha */
+}
+
+footer {
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 20px 0; /* Espaçamento interno */
+    margin-bottom: 0; /* Remove a margem inferior */
+}
+footer a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #3e1d01; /* Cor do texto */
+    margin: 0 10px; /* Espaçamento entre os links */
+}
+footer hr {
+    border: none;
+    border-top: 1px solid #000000; /* Estilo da linha */
+    margin: 10px auto; /* Margem superior e inferior */
+    width:20%; /* Largura da linha */
+}

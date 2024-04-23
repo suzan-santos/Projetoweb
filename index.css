@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(255, 232, 211);
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o conteúdo ocupe pelo menos a altura da tela */
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif; /* Define a fonte para o título h1 */
+    color: #2c1801; /* Define a cor do título h1 */
+    text-align: center; /* Centraliza o texto */
+    font-size: 3em; /* Tamanho da fonte aumentado */
+}
+
+header hr {
+    border: none;
+    border-top: 1px solid #000000; /* Estilo da linha */
+    margin: 10px auto; /* Margem superior e inferior */
+    width:100%; /* Largura da linha */
+}
+
+main {
+    color: #3e1d01;
+    line-height: 1.5;
+    margin: 25px;
+    padding: 0px; /* Define o espaçamento interno de 20 pixels em todos os lados */
+}
+main h2 {
+    font-family: 'Times New Roman', serif; /* Define a fonte para o título h2 */
+}
+
+main p {
+    font-family: 'Verdana', sans-serif; /* Define a fonte para os parágrafos */
+}
+main br {
+    display: block;
+    content: "\0020"; /* Adiciona um espaço para garantir que o margin-bottom funcione */
+    margin-bottom: 15px; /* Espaçamento maior após a tag <br> */
+
+}
+
+footer {
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 20px 0; /* Espaçamento interno */
+    margin-bottom: 0; /* Remove a margem inferior */
+}
+
+footer a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #3e1d01; /* Cor do texto */
+    margin: 0 10px; /* Espaçamento entre os links */
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid #000000; /* Estilo da linha */
+    margin: 10px auto; /* Margem superior e inferior */
+    width:20%; /* Largura da linha */
+}
