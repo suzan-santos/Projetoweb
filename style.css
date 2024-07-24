@@ -17,7 +17,7 @@ body {
     background-position: center;
     margin: 0;
     padding: 0;
-    position: relative; /* Adicionado para posicionar o conteúdo */
+    position: relative;
 }
 .banner h1 {
     position: absolute;
@@ -35,46 +35,46 @@ body {
 }
 
 main {
-    padding: 0px; /* Define o espaçamento interno de 20 pixels em todos os lados */
+    padding: 0px; 
     margin: 25px;
-    line-height: 1.5; /* Define o espaçamento entre linhas */
-    margin-bottom: 1px; /* Define a margem inferior */
+    line-height: 1.5; 
+    margin-bottom: 1px; 
 }
 main h3 {
     text-align: center;
-    font-family: 'Times New Roman', serif; /* Define a fonte para o título h2 */
-    color: #3e1d01; /* Define a cor do título h2 */
+    font-family: 'Times New Roman', serif; 
+    color: #3e1d01;
     font-size: 2em;
 
 }
 main h2 {
-    font-family: 'Times New Roman', serif; /* Define a fonte para o título h2 */
-    color: #3e1d01; /* Define a cor do título h2 */
+    font-family: 'Times New Roman', serif;
+    color: #3e1d01; 
 }
 main p {
-    font-family: 'Verdana', sans-serif; /* Define a fonte para os parágrafos */
-    color: #3e1d01; /* Define a cor dos parágrafos */
+    font-family: 'Verdana', sans-serif; 
+    color: #3e1d01; 
 }
 main hr{
     border: none;
-    border-top: 1px solid #3e1d01; /* Estilo da linha */
-    margin: 10px auto; /* Margem superior e inferior */
-    width:100%; /* Largura da linha */
+    border-top: 1px solid #3e1d01;
+    margin: 10px auto;
+    width:100%; 
 }
 
 footer {
-    text-align: center; /* Centraliza o conteúdo */
-    padding: 20px 0; /* Espaçamento interno */
-    margin-bottom: 0; /* Remove a margem inferior */
+    text-align: center; 
+    padding: 20px 0;
+    margin-bottom: 0;
 }
 footer a {
-    text-decoration: none; /* Remove sublinhado */
-    color: #3e1d01; /* Cor do texto */
-    margin: 0 10px; /* Espaçamento entre os links */
+    text-decoration: none; 
+    color: #3e1d01; 
+    margin: 0 10px; 
 }
 footer hr {
     border: none;
-    border-top: 1px solid #000000; /* Estilo da linha */
-    margin: 10px auto; /* Margem superior e inferior */
-    width:20%; /* Largura da linha */
+    border-top: 1px solid #000000; 
+    margin: 10px auto; 
+    width:20%;
 }
