@@ -92,8 +92,8 @@ nav a {
 /* Estilos do modal */
 .modal {
     display: none; /* Oculto por padrão */
-    position: fixed;
-    z-index: 1000;
+    position: fixed; /* Fica fixo na tela */
+    z-index: 1000; /* Sobrepõe outros conteúdos */
     left: 0;
     top: 0;
     width: 100%;
@@ -103,7 +103,7 @@ nav a {
 
 .modal-content {
     background-color: #fefefe;
-    margin: 10% auto;
+    margin: 10% auto; /* Centraliza verticalmente */
     padding: 20px;
     border: 1px solid #888;
     width: 300px;
@@ -126,10 +126,6 @@ nav a {
     cursor: pointer;
 }
 
-.hidden {
-    display: none;
-}
-
 .modal-form {
     margin-top: 20px;
 }
@@ -145,8 +141,4 @@ button {
 
 button:hover {
     background-color: #555;
-}
-    border-top: 1px solid #000000; 
-    margin: 10px auto; 
-    width:20%;
 }
